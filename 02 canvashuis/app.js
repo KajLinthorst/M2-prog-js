@@ -7,8 +7,7 @@ class App
        let g = canvas.getContext("2d");
        console.log(canvas)
        g.fillRect(0,0,10,10);
-    
-    
+      
     
     }
 
