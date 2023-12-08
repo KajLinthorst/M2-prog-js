@@ -97,18 +97,6 @@ class App
         g.stroke();
         g.fill()
 
-
-
-
-
-
-
-
-
-
-
-
-
         console.log(canvas)
         
     }
