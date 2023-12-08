@@ -59,6 +59,9 @@ console.log(hetResultaat);
 console.log(heeftEenResultaat());
 */
 
+
+
+
 class App
 {
     runApplication(){
@@ -76,9 +79,27 @@ class App
         console.log("hier:")
         console.log(aArgument)
     }
+
+    itsAMeMario()
+    {
+        console.log("MARIO!!")
+
+    }
+
+    itsBowser(){
+        return "BWAHAHA!!!";
+    }
+
+    rekenSum(getal1, getal2){
+        console.log("de som is =" + getal1 + getal2)
+    }
+
 }
 
 let app = new App();
 app.runApplication();
 app.newClassFunction();
 app.anotherFunctionWithArguments("mijn argument is dat appels lekker zijn");
+app.itsAMeMario();
+console.log(app.itsBowser());
+app.rekenSum(4,6)

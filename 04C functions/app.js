@@ -55,8 +55,8 @@ let c = 89;
 
 
 let hetResultaat = heeftEenResultaat();
-//console.log(hetResultaat);
-//console.log(heeftEenResultaat());
+console.log(hetResultaat);
+console.log(heeftEenResultaat());
 
 class App
 {
@@ -65,9 +65,7 @@ class App
         
     }
 
-    newClassFunctions(){
-        console.log("hello world in de nieuwe Class Functie")
-    }
+   
 
 }
 
