@@ -5,7 +5,7 @@ function heeftEenResultaat(){
 }
 
 
-
+/*
 let y1 = ax2bcWiskunde(9, 3, 4, 89);
 console.log(y1);
 
@@ -55,8 +55,9 @@ let c = 89;
 
 
 let hetResultaat = heeftEenResultaat();
-//console.log(hetResultaat);
-//console.log(heeftEenResultaat());
+console.log(hetResultaat);
+console.log(heeftEenResultaat());
+*/
 
 class App
 {
@@ -65,12 +66,19 @@ class App
         
     }
 
-    newClassFunctions(){
-        console.log("hello world in de nieuwe Class Functie")
+    newClassFunction(){
+        console.log("class func")
     }
 
+    anotherFunctionWithArguments(aArgument)
+    {
+        console.log("kom maar met je argument");
+        console.log("hier:")
+        console.log(aArgument)
+    }
 }
 
 let app = new App();
 app.runApplication();
-app.newClassFunctions();
+app.newClassFunction();
+app.anotherFunctionWithArguments("mijn argument is dat appels lekker zijn");
