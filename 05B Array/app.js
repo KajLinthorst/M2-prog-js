@@ -9,7 +9,7 @@ class App
         mijnFavArtiesten.push("Elton John");
         mijnFavArtiesten.push("Paul McCartney");
         mijnFavArtiesten.splice(indexToRemove, 1)
-        mijnFavArtiesten.splice(indexToRemove2, 1) // DIT WERKT NIET AHHHAHA SUKKEL
+        mijnFavArtiesten.splice(indexToRemove, 1)
         mijnFavArtiesten.push("Pete Townshed");
         mijnFavArtiesten.push("Brian May");
         
