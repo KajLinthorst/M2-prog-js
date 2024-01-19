@@ -15,6 +15,12 @@ class Dino{
     }
 }
 
+class Plant{
+    constructor(naam, leeft){
+        this.naam = naam;
+        this.leeft = leeft;
+    }
+}
 class App {
 
     
@@ -28,10 +34,19 @@ class App {
         console.log(dino);
         console.log("De leeftijd van deze " + dino.naam + " is " + dino.leeftijd);
         console.log("En deze " + dino.naam + " eet vlees: " + dino.vleeseter);   
-        console.log(planteneter); 
+        console.log(planteneter);          
+        let struik = new Plant("Jeffy de Struik", true);
+        let gras = new Plant("Geronimo de Grasspriet", true);
+        
+        planteneter.eatFood(struik);
+        console.log("leeft " + struik.naam + "? = " + struik.leeft);
+        
+        planteneter.eatFood(gras);
+        console.log("leeft " + gras.naam + "? = " + gras.leeft);
 
         dino.eatFood(planteneter);
         console.log("leeft " + planteneter.naam + " ? = " + planteneter.leeft);
+
     }   
 }
 
