@@ -16,8 +16,8 @@ class App {
 
         let dino = new Dino("Hendrik", true, 14);
         console.log(dino);
-        console.log("De leeftijd van deze" + dino.naam + " is " + dino.leeftijd);
-        console.log("En deze " + dino.naam + "eet vlees " + dino.vleeseter);
+        console.log("De leeftijd van deze " + dino.naam + " is " + dino.leeftijd);
+        console.log("En deze " + dino.naam + " eet vlees: " + dino.vleeseter);    
 
 
     }   
