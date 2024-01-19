@@ -39,6 +39,3 @@ goodbye.showGoodbye();
 
 greet.showGreeting();
 goodbye.showGoodbye();
-
-greet.showGreeting();
-goodbye.showGoodbye();
