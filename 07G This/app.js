@@ -12,7 +12,7 @@ class User
 class App
 {
     
-    runApplincation()
+    runApplication()
     {
         let patches = new User("patches the hyane")
         let user1 = new User("Kers de Kerstboom") ;      
@@ -23,7 +23,7 @@ class App
         let user6 = new User("Slart de Slak");
         
         
-        patches.wieBenIk();//dit is commentaar
+        patches.wieBenIk(); //dit is commentaar
         user6.wieBenIk();
         user5.wieBenIk();
         user2.wieBenIk();
@@ -39,4 +39,4 @@ class App
     }
 }
 let app = new App();
-app.runApplincation();
+app.runApplication();
