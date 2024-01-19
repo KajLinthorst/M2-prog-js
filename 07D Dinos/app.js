@@ -12,7 +12,7 @@ class App {
     runApplication() 
     {
     
-        console.log("hellow rold");
+        console.log("hello world");
 
         let dino = new Dino("Hendrik", true, 14);
         console.log(dino);
@@ -22,8 +22,6 @@ class App {
 
     }   
 }
-
-
 
 let app = new App();
 app.runApplication();

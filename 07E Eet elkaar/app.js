@@ -11,7 +11,7 @@ class Dino{
         foodtoEat.leeft = false;
         this.honger = false;
         console.log("ik ben een " + this.naam);
-        console.log("mijn honger " + this.naam); 
+        console.log("mijn honger is " + this.honger); 
     }
 }
 
@@ -30,7 +30,8 @@ class App {
         console.log("En deze " + dino.naam + " eet vlees: " + dino.vleeseter);   
         console.log(planteneter); 
 
-
+        dino.eatFood(planteneter);
+        console.log("leeft " + planteneter.naam + " ? = " + planteneter.leeft);
     }   
 }
 
